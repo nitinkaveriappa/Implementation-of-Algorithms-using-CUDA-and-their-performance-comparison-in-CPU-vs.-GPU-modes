@@ -22,3 +22,5 @@ KUSUMA CHANDRIKA K. (1NH10CS047)
 NITIN KAVERIAPPA U. M. (1NH10CS061)
 
 Year: 2014
+
+You can check out the 'Final Presentation.pptx' presentation for more Info on the project.
