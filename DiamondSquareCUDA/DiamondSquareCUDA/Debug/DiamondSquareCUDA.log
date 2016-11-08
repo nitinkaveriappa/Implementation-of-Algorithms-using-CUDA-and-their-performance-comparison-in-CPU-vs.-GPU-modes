@@ -1,0 +1,61 @@
+﻿Build started 23-04-2014 12:27:15.
+     1>Project "C:\Users\Nitin Kaveriappa\Documents\Visual Studio 2010\Projects\DiamondSquareCUDA\DiamondSquareCUDA\DiamondSquareCUDA.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\DiamondSquareCUDA.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       AddCudaCompileDeps:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" /I. /FIcuda_runtime.h /c "C:\Users\Nitin Kaveriappa\Documents\Visual Studio 2010\Projects\DiamondSquareCUDA\DiamondSquareCUDA\kernel.cu" 
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+         Compiling CUDA source file kernel.cu...
+         cmd.exe /C "C:\Users\Nitin Kaveriappa\AppData\Local\Temp\tmp13e693dd4a064e32896ecabda5a49411.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2010 -ccbin "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\kernel.cu.obj "C:\Users\Nitin Kaveriappa\Documents\Visual Studio 2010\Projects\DiamondSquareCUDA\DiamondSquareCUDA\kernel.cu"
+         
+         C:\Users\Nitin Kaveriappa\Documents\Visual Studio 2010\Projects\DiamondSquareCUDA\DiamondSquareCUDA>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2010 -ccbin "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\kernel.cu.obj "C:\Users\Nitin Kaveriappa\Documents\Visual Studio 2010\Projects\DiamondSquareCUDA\DiamondSquareCUDA\kernel.cu" 
+     1>C:/Users/Nitin Kaveriappa/Documents/Visual Studio 2010/Projects/DiamondSquareCUDA/DiamondSquareCUDA/kernel.cu(144): warning : variable "i" was declared but never referenced
+         
+     1>C:/Users/Nitin Kaveriappa/Documents/Visual Studio 2010/Projects/DiamondSquareCUDA/DiamondSquareCUDA/kernel.cu(144): warning : variable "j" was declared but never referenced
+         
+     1>C:/Users/Nitin Kaveriappa/Documents/Visual Studio 2010/Projects/DiamondSquareCUDA/DiamondSquareCUDA/kernel.cu(199): warning : variable "i" was declared but never referenced
+         
+     1>C:/Users/Nitin Kaveriappa/Documents/Visual Studio 2010/Projects/DiamondSquareCUDA/DiamondSquareCUDA/kernel.cu(199): warning : variable "j" was declared but never referenced
+         
+     1>C:/Users/Nitin Kaveriappa/Documents/Visual Studio 2010/Projects/DiamondSquareCUDA/DiamondSquareCUDA/kernel.cu(144): warning : variable "i" was declared but never referenced
+         
+     1>C:/Users/Nitin Kaveriappa/Documents/Visual Studio 2010/Projects/DiamondSquareCUDA/DiamondSquareCUDA/kernel.cu(144): warning : variable "j" was declared but never referenced
+         
+     1>C:/Users/Nitin Kaveriappa/Documents/Visual Studio 2010/Projects/DiamondSquareCUDA/DiamondSquareCUDA/kernel.cu(199): warning : variable "i" was declared but never referenced
+         
+     1>C:/Users/Nitin Kaveriappa/Documents/Visual Studio 2010/Projects/DiamondSquareCUDA/DiamondSquareCUDA/kernel.cu(199): warning : variable "j" was declared but never referenced
+         
+     1>C:/Users/Nitin Kaveriappa/Documents/Visual Studio 2010/Projects/DiamondSquareCUDA/DiamondSquareCUDA/kernel.cu(144): warning C4101: 'i' : unreferenced local variable
+     1>C:/Users/Nitin Kaveriappa/Documents/Visual Studio 2010/Projects/DiamondSquareCUDA/DiamondSquareCUDA/kernel.cu(144): warning C4101: 'j' : unreferenced local variable
+     1>C:/Users/Nitin Kaveriappa/Documents/Visual Studio 2010/Projects/DiamondSquareCUDA/DiamondSquareCUDA/kernel.cu(199): warning C4101: 'i' : unreferenced local variable
+     1>C:/Users/Nitin Kaveriappa/Documents/Visual Studio 2010/Projects/DiamondSquareCUDA/DiamondSquareCUDA/kernel.cu(199): warning C4101: 'j' : unreferenced local variable
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Nitin Kaveriappa\Documents\Visual Studio 2010\Projects\DiamondSquareCUDA\Debug\DiamondSquareCUDA.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\DiamondSquareCUDA.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Nitin Kaveriappa\Documents\Visual Studio 2010\Projects\DiamondSquareCUDA\Debug\DiamondSquareCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Nitin Kaveriappa\Documents\Visual Studio 2010\Projects\DiamondSquareCUDA\Debug\DiamondSquareCUDA.lib" /MACHINE:X86 Debug\kernel.cu.obj
+         Debug\DiamondSquareCUDA.exe.embed.manifest.res
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\DiamondSquareCUDA.exe.embed.manifest" /manifest Debug\DiamondSquareCUDA.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         DiamondSquareCUDA.vcxproj -> C:\Users\Nitin Kaveriappa\Documents\Visual Studio 2010\Projects\DiamondSquareCUDA\Debug\DiamondSquareCUDA.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart*.dll" "C:\Users\Nitin Kaveriappa\Documents\Visual Studio 2010\Projects\DiamondSquareCUDA\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart*.dll" "C:\Users\Nitin Kaveriappa\Documents\Visual Studio 2010\Projects\DiamondSquareCUDA\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart*.dll" "C:\Users\Nitin Kaveriappa\Documents\Visual Studio 2010\Projects\DiamondSquareCUDA\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart32_55.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart64_55.dll
+                 2 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Debug\DiamondSquareCUDA.unsuccessfulbuild".
+         Touching "Debug\DiamondSquareCUDA.lastbuildstate".
+     1>Done Building Project "C:\Users\Nitin Kaveriappa\Documents\Visual Studio 2010\Projects\DiamondSquareCUDA\DiamondSquareCUDA\DiamondSquareCUDA.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.51

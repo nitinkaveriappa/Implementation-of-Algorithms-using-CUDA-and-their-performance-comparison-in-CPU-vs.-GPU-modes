@@ -1,0 +1,24 @@
+﻿Build started 12-04-2014 07:39:09.
+     1>Project "c:\Users\nitin kaveriappa\documents\visual studio 2010\Projects\DiamondSquareC\DiamondSquareC\DiamondSquareC.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "c:\users\nitin kaveriappa\documents\visual studio 2010\Projects\DiamondSquareC\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\DiamondSquareC.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt diamondsquarec.c
+         diamondsquarec.c
+     1>c:\users\nitin kaveriappa\documents\visual studio 2010\projects\diamondsquarec\diamondsquarec\diamondsquarec.c(292): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void)'
+     1>c:\users\nitin kaveriappa\documents\visual studio 2010\projects\diamondsquarec\diamondsquarec\diamondsquarec.c(227): warning C4716: 'makeMap' : must return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\nitin kaveriappa\documents\visual studio 2010\Projects\DiamondSquareC\Debug\DiamondSquareC.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\DiamondSquareC.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\nitin kaveriappa\documents\visual studio 2010\Projects\DiamondSquareC\Debug\DiamondSquareC.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\nitin kaveriappa\documents\visual studio 2010\Projects\DiamondSquareC\Debug\DiamondSquareC.lib" /MACHINE:X86 Debug\diamondsquarec.obj
+         DiamondSquareC.vcxproj -> c:\users\nitin kaveriappa\documents\visual studio 2010\Projects\DiamondSquareC\Debug\DiamondSquareC.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\users\nitin kaveriappa\documents\visual studio 2010\Projects\DiamondSquareC\Debug\DiamondSquareC.exe;#1" /manifest Debug\DiamondSquareC.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\DiamondSquareC.unsuccessfulbuild".
+         Touching "Debug\DiamondSquareC.lastbuildstate".
+     1>Done Building Project "c:\Users\nitin kaveriappa\documents\visual studio 2010\Projects\DiamondSquareC\DiamondSquareC\DiamondSquareC.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.82

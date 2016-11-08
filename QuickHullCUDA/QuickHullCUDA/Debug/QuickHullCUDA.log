@@ -1,0 +1,89 @@
+﻿Build started 23-04-2014 16:13:20.
+     1>Project "C:\Users\Nitin Kaveriappa\Documents\Visual Studio 2010\Projects\QuickHullCUDA\QuickHullCUDA\QuickHullCUDA.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\QuickHullCUDA.lastbuildstate".
+       CudaClean:
+         cmd.exe /C "C:\Users\Nitin Kaveriappa\AppData\Local\Temp\tmp7d82c73c71fc4f5388d7cb453a29d71f.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\nvcc.exe" -ccbin "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile   -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\kernel.cu.obj "C:\Users\Nitin Kaveriappa\Documents\Visual Studio 2010\Projects\QuickHullCUDA\QuickHullCUDA\kernel.cu" -clean
+         
+         C:\Users\Nitin Kaveriappa\Documents\Visual Studio 2010\Projects\QuickHullCUDA\QuickHullCUDA>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\nvcc.exe" -ccbin "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile   -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\kernel.cu.obj "C:\Users\Nitin Kaveriappa\Documents\Visual Studio 2010\Projects\QuickHullCUDA\QuickHullCUDA\kernel.cu" -clean 
+         Deleting file "Debug\kernel.cu.deps".
+       InitializeBuildStatus:
+         Touching "Debug\QuickHullCUDA.unsuccessfulbuild".
+       AddCudaCompileDeps:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" /I. /FIcuda_runtime.h /c "C:\Users\Nitin Kaveriappa\Documents\Visual Studio 2010\Projects\QuickHullCUDA\QuickHullCUDA\kernel.cu" 
+       CudaBuild:
+         Compiling CUDA source file kernel.cu...
+         cmd.exe /C "C:\Users\Nitin Kaveriappa\AppData\Local\Temp\tmp582db143a6424dec890ca193ebdc8087.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2010 -ccbin "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\kernel.cu.obj "C:\Users\Nitin Kaveriappa\Documents\Visual Studio 2010\Projects\QuickHullCUDA\QuickHullCUDA\kernel.cu"
+         
+         C:\Users\Nitin Kaveriappa\Documents\Visual Studio 2010\Projects\QuickHullCUDA\QuickHullCUDA>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2010 -ccbin "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\kernel.cu.obj "C:\Users\Nitin Kaveriappa\Documents\Visual Studio 2010\Projects\QuickHullCUDA\QuickHullCUDA\kernel.cu" 
+     1>C:/Users/Nitin Kaveriappa/Documents/Visual Studio 2010/Projects/QuickHullCUDA/QuickHullCUDA/kernel.cu(186): warning : variable "t_ac" was declared but never referenced
+         
+     1>C:/Users/Nitin Kaveriappa/Documents/Visual Studio 2010/Projects/QuickHullCUDA/QuickHullCUDA/kernel.cu(186): warning : variable "t_bc" was declared but never referenced
+         
+     1>C:/Users/Nitin Kaveriappa/Documents/Visual Studio 2010/Projects/QuickHullCUDA/QuickHullCUDA/kernel.cu(186): warning : variable "area" was declared but never referenced
+         
+     1>C:/Users/Nitin Kaveriappa/Documents/Visual Studio 2010/Projects/QuickHullCUDA/QuickHullCUDA/kernel.cu(186): warning : variable "s" was declared but never referenced
+         
+     1>C:/Users/Nitin Kaveriappa/Documents/Visual Studio 2010/Projects/QuickHullCUDA/QuickHullCUDA/kernel.cu(270): warning : variable "flag" was declared but never referenced
+         
+     1>C:/Users/Nitin Kaveriappa/Documents/Visual Studio 2010/Projects/QuickHullCUDA/QuickHullCUDA/kernel.cu(607): warning : variable "elapsed" was declared but never referenced
+         
+     1>C:/Users/Nitin Kaveriappa/Documents/Visual Studio 2010/Projects/QuickHullCUDA/QuickHullCUDA/kernel.cu(607): warning : variable "xx" was declared but never referenced
+         
+     1>C:/Users/Nitin Kaveriappa/Documents/Visual Studio 2010/Projects/QuickHullCUDA/QuickHullCUDA/kernel.cu(607): warning : variable "yy" was declared but never referenced
+         
+     1>C:/Users/Nitin Kaveriappa/Documents/Visual Studio 2010/Projects/QuickHullCUDA/QuickHullCUDA/kernel.cu(186): warning : variable "t_ac" was declared but never referenced
+         
+     1>C:/Users/Nitin Kaveriappa/Documents/Visual Studio 2010/Projects/QuickHullCUDA/QuickHullCUDA/kernel.cu(186): warning : variable "t_bc" was declared but never referenced
+         
+     1>C:/Users/Nitin Kaveriappa/Documents/Visual Studio 2010/Projects/QuickHullCUDA/QuickHullCUDA/kernel.cu(186): warning : variable "area" was declared but never referenced
+         
+     1>C:/Users/Nitin Kaveriappa/Documents/Visual Studio 2010/Projects/QuickHullCUDA/QuickHullCUDA/kernel.cu(186): warning : variable "s" was declared but never referenced
+         
+     1>C:/Users/Nitin Kaveriappa/Documents/Visual Studio 2010/Projects/QuickHullCUDA/QuickHullCUDA/kernel.cu(270): warning : variable "flag" was declared but never referenced
+         
+     1>C:/Users/Nitin Kaveriappa/Documents/Visual Studio 2010/Projects/QuickHullCUDA/QuickHullCUDA/kernel.cu(607): warning : variable "elapsed" was declared but never referenced
+         
+     1>C:/Users/Nitin Kaveriappa/Documents/Visual Studio 2010/Projects/QuickHullCUDA/QuickHullCUDA/kernel.cu(607): warning : variable "xx" was declared but never referenced
+         
+     1>C:/Users/Nitin Kaveriappa/Documents/Visual Studio 2010/Projects/QuickHullCUDA/QuickHullCUDA/kernel.cu(607): warning : variable "yy" was declared but never referenced
+         
+         ptxas C:/Users/NITINK~1/AppData/Local/Temp/tmpxft_0000131c_00000000-4_kernel.ptx, line 84; : warning : Double is not supported. Demoting to float
+     1>C:/Users/Nitin Kaveriappa/Documents/Visual Studio 2010/Projects/QuickHullCUDA/QuickHullCUDA/kernel.cu(186): warning C4101: 't_bc' : unreferenced local variable
+     1>C:/Users/Nitin Kaveriappa/Documents/Visual Studio 2010/Projects/QuickHullCUDA/QuickHullCUDA/kernel.cu(186): warning C4101: 's' : unreferenced local variable
+     1>C:/Users/Nitin Kaveriappa/Documents/Visual Studio 2010/Projects/QuickHullCUDA/QuickHullCUDA/kernel.cu(186): warning C4101: 't_ac' : unreferenced local variable
+     1>C:/Users/Nitin Kaveriappa/Documents/Visual Studio 2010/Projects/QuickHullCUDA/QuickHullCUDA/kernel.cu(186): warning C4101: 'area' : unreferenced local variable
+     1>C:/Users/Nitin Kaveriappa/Documents/Visual Studio 2010/Projects/QuickHullCUDA/QuickHullCUDA/kernel.cu(241): warning C4068: unknown pragma
+     1>C:/Users/Nitin Kaveriappa/Documents/Visual Studio 2010/Projects/QuickHullCUDA/QuickHullCUDA/kernel.cu(292): warning C4068: unknown pragma
+     1>C:/Users/Nitin Kaveriappa/Documents/Visual Studio 2010/Projects/QuickHullCUDA/QuickHullCUDA/kernel.cu(607): warning C4101: 'elapsed' : unreferenced local variable
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\QuickHullCUDA.exe.embed.manifest.res" Debug\QuickHullCUDA_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Nitin Kaveriappa\Documents\Visual Studio 2010\Projects\QuickHullCUDA\Debug\QuickHullCUDA.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\QuickHullCUDA.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Nitin Kaveriappa\Documents\Visual Studio 2010\Projects\QuickHullCUDA\Debug\QuickHullCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Nitin Kaveriappa\Documents\Visual Studio 2010\Projects\QuickHullCUDA\Debug\QuickHullCUDA.lib" /MACHINE:X86 Debug\kernel.cu.obj
+         Debug\QuickHullCUDA.exe.embed.manifest.res
+       Manifest:
+         Deleting file "Debug\QuickHullCUDA.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\QuickHullCUDA.exe.embed.manifest" /manifest Debug\QuickHullCUDA.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\QuickHullCUDA.exe.embed.manifest.res" Debug\QuickHullCUDA_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Nitin Kaveriappa\Documents\Visual Studio 2010\Projects\QuickHullCUDA\Debug\QuickHullCUDA.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\QuickHullCUDA.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Nitin Kaveriappa\Documents\Visual Studio 2010\Projects\QuickHullCUDA\Debug\QuickHullCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Nitin Kaveriappa\Documents\Visual Studio 2010\Projects\QuickHullCUDA\Debug\QuickHullCUDA.lib" /MACHINE:X86 Debug\kernel.cu.obj
+         Debug\QuickHullCUDA.exe.embed.manifest.res
+         QuickHullCUDA.vcxproj -> C:\Users\Nitin Kaveriappa\Documents\Visual Studio 2010\Projects\QuickHullCUDA\Debug\QuickHullCUDA.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart*.dll" "C:\Users\Nitin Kaveriappa\Documents\Visual Studio 2010\Projects\QuickHullCUDA\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart*.dll" "C:\Users\Nitin Kaveriappa\Documents\Visual Studio 2010\Projects\QuickHullCUDA\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart*.dll" "C:\Users\Nitin Kaveriappa\Documents\Visual Studio 2010\Projects\QuickHullCUDA\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart32_55.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart64_55.dll
+                 2 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Debug\QuickHullCUDA.unsuccessfulbuild".
+         Touching "Debug\QuickHullCUDA.lastbuildstate".
+     1>Done Building Project "C:\Users\Nitin Kaveriappa\Documents\Visual Studio 2010\Projects\QuickHullCUDA\QuickHullCUDA\QuickHullCUDA.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.43
