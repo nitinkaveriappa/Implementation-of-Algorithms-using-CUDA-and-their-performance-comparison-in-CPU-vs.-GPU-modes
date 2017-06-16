@@ -1,4 +1,4 @@
-# Project-X
+# Implementation of Algorithms using CUDA and their performance comparison in CPU vs. GPU modes
 
 ACADEMIC PROJECT SYNOPSIS
 
